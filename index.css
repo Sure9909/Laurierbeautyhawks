@@ -1,0 +1,254 @@
+html {
+    background: url(Gallery/bg3.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navBar {
+    background-color: black;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* Style the links inside the navigation bar */
+
+.navBar a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px 12px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+/* Change the color of links on hover */
+
+.navBar a:hover {
+    background-color: #c8a0cd;
+    color: black;
+}
+
+.navbar-nav li a {
+    line-height: 150px;
+    height: 150px;
+    padding-top: 0;
+}
+
+.active {
+    background-color: #c8a0cd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+
+.navBar a.active {
+    background-color: #c8a0cd;
+    color: black;
+}
+
+.navBar ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+/* Adding Drop-Down for Gallery */
+
+/*
+.navBar#drop {
+    position: relative;
+    display: inline-block;
+}
+*/
+
+/*
+#drops:hover .dropdown-content {
+    display: block;
+}
+*/
+
+.dropdown {
+    /*
+    float:right;
+    overflow: hidden;
+*/
+    display: inline-block;
+    text-align: center;
+    padding: 10px 6px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.dropdown .dropbtn {
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 6px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    /*    float: none;*/
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+    background-color: #c8a0cd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Adding properties for Gallery page */
+
+div.gallery {
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    width: 180px;
+}
+
+div.gallery img:hover {
+    opacity: 1;
+    height: 450px;
+    width: 375px;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    z-index: 2;
+}
+
+.firstPic {
+    opacity: .85;
+}
+
+div.gallery img {
+    opacity: 1;
+    width: 250px;
+    height: 300px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, .6);
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+    overflow: hidden;
+    z-index: 1;
+}
+
+/*
+#imageContain {
+    width: 600;
+    margin-left: auto;
+    margin-right: auto;
+}
+*/
+
+.bg {
+    background-image: url("background.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -4;
+}
+
+/*
+body {
+    background-image: url("background.jpg");
+    background-color: #cccccc;
+}
+*/
+
+div.fixed {
+    font-family: "Lucida Calligraphy", "Lucida Grande", sans-serif;
+    position: fixed;
+    bottom: 500px;
+    right: 1100px;
+    width: 300px;
+    border: 1px solid #c8a0cd;
+    background-color: white;
+    text-align: left;
+    line-height: 200%;
+}
+
+div.fixed2 {
+    font-family: "Lucida Calligraphy", "Lucida Grande", sans-serif;
+    /*    position: fixed;
+    
+    bottom: 580px;
+    right: 600px;
+    width: 1000px;
+*/
+    border: 1px solid #c8a0cd;
+    background-color: white;
+    text-align: left;
+    line-height: 200%;
+    font-size: 24px;
+    opacity: .8;
+}
+
+div.changed {
+    font-family: "Lucida Calligraphy", "Lucida Grande", sans-serif;
+    position: fixed;
+    bottom: 580px;
+    right: 600px;
+    width: 300px;
+    opacity: .7;
+    border: 1px solid #c8a0cd;
+    background-color: white;
+    text-align: left;
+    line-height: 200%;
+}
+
+div.txtbox {
+    font-family: "Lucida Calligraphy", "Lucida Grande", sans-serif;
+    bottom: 580px;
+    right: 100px;
+    width: 550px;
+    height: 420px;
+    border: 1px solid #c8a0cd;
+    background-color: white;
+    line-height: 350%;
+}
+
+.fontChangeUp {
+    font-family: "Lucida Calligraphy", "Lucida Grande", sans-serif;
+    line-height: 200%;
+
+}
+
+P {
+    font-size: 18px;
+}
+
+h1 {
+    font-family: "Lucida Calligraphy", "Lucida Grande", sans-serif;
+    font-size: 42px;
+}
+
+div.copyright3 {
+    bottom: 0px;
+
+}
